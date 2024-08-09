@@ -1,0 +1,29 @@
+
+.cover{
+    transition: 0.3s;
+    bottom: 0;
+    top: 100%;
+}
+
+.user-card:hover .cover{
+top: 0;
+}
+
+.user-card img{
+    transition: 0.3s;
+}
+.user-card:hover img{
+   transform: scale(1.2);
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.detail{
+    transition: 0.3s;
+}
+
+.detail:hover{
+    color: rgb(64, 64, 85) !important;
+}
